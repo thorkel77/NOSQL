@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "Meliodas",
+    "race": "demon",
+    "equipe": "seven_deadly_sins",
+    "magie": "full_counter",
+    "sexe": "homme",
+    "attribut": "rapide",
+    "puissance_total" : "142,000",
+
+    "note": "Chef des seven deadly sins"
+  },
+
+  {
+    "id": 2,
+    "name": "Zeldris",
+    "race": "demon",
+    "equipe": " ten_commandments",
+    "commandement": "piete",
+    "sexe": "homme",
+    "magie": "obvious_nebula",
+    "attribut": "force",
+    "puissance_total" : "61,000",
+
+    "note": "Chef des ten commandments"
+  },
+
+  {
+    "id": 3,
+    "name": "King",
+    "race": "fee",
+    "equipe": "seven_deadly_sins",
+    "magie": "desaster",
+    "sexe": "homme",
+    "attribut": "rapide",
+    "puissance_total" : "41,000",
+
+    "note": "roi des fees"
+  },
+
+
+  {
+    "id": 4,
+    "name": "Gloxinia",
+    "race": "fee",
+    "equipe": " ten_commandments",
+    "magie": "lance_chastivol",
+    "sexe": "homme",
+    "commandement": "repos",
+    "attribut": "force",
+    "puissance_total" : "50,000",
+
+    "note": "ancien roi des fees"
+  },
+
+  {
+    "id": 5,
+    "name": "Galan",
+    "race": "demon",
+    "equipe": " ten_commandments",
+    "magie": "etat_critique",
+    "sexe": "inconnu",
+    "commandement": "verite",
+    "attribut": "force",
+    "puissance_total" : "40,000",
+
+    "note": "aime joue au jeu de galan"
+  },
+
+  {
+    "id": 6,
+    "name": "Escanor",
+    "race": "homme",
+    "equipe": "seven_deadly_sins",
+    "magie": "soleil",
+    "sexe": "homme",
+    "attribut": "pv",
+    "puissance_total" : "216,000",
+
+    "note": "L'homme le plus fort des sevne deadly sins"
+  },
+
+
+  {
+    "id": 7,
+    "name": "Diane",
+    "race": "geant",
+    "equipe": "seven_deadly_sins",
+    "magie": "creation",
+    "sexe": "femme",
+    "attribut": "pv",
+    "puissance_total" : "48,000",
+
+    "note": "a perdu la memoire"
+  },
+
+
+  {
+    "id": 8,
+    "name": "Dolor",
+    "race": "geant",
+    "equipe": " ten_commandments",
+    "magie": "oeil_magique",
+    "sexe": "homme",
+    "commandement": "patience",
+    "attribut": "force",
+    "puissance_total" : "54,000",
+
+    "note": "ancien roi des geants"
+  },
+
+
+  {
+    "id": 9,
+    "name": "Melascula",
+    "race": "demon",
+    "equipe": " ten_commandments",
+    "magie": "cocon_des_tenebres",
+    "sexe": "femme",
+    "commandement": "foi",
+    "attribut": "rapide",
+    "puissance_total" : "34,000",
+
+    "note": "aime l'alcool plus que les ames"
+  },
+
+
+  {
+    "id": 10,
+    "name": "Ban",
+    "race": "humain",
+    "equipe": "seven_deadly_sins",
+    "magie": "Detournement",
+    "sexe": "homme",
+    "attribut": "rapide",
+    "puissance_total" : "3,220",
+
+    "note": "il est immortel et il est meilleur ami de Meliodas"
+  },
+
+
+  {
+    "id": 11,
+    "name": "Merlin",
+    "race": "inconnu",
+    "equipe": "seven_deadly_sins",
+    "magie": "infinity",
+    "sexe": "femme",
+    "attribut": "rapide",
+    "puissance_total" : "4,710",
+
+    "note": "A plusieurs disiple pour l'aider dans ces recherche"
+  },
+
+  {
+    "id": 12,
+    "name": "Estarosas",
+    "race": "demon",
+    "equipe": "ten_commandments",
+    "magie": "full_counter",
+    "sexe": "homme",
+    "commandment": "charite",
+    "attribut": "pv",
+    "puissance_total" : "200,000",
+
+    "note": "Aime chasser les dragons"
+  },
+
+  {
+    "id": 13,
+    "name": "Gowther",
+    "race": "pantin",
+    "equipe": "seven_deadly_sins",
+    "magie": "intrusion",
+    "sexe": "homme",
+    "attribut": "force",
+    "puissance_total" : "3,100",
+
+    "note": "cherche a comprendre les sentiments"
+  },
+
+  {
+    "id": 14,
+    "name": "Gray Road",
+    "race": "demon",
+    "equipe": "ten_commandments",
+    "magie": "malediction",
+    "sexe": "inconnu",
+    "commandment": "pacifisme",
+    "attribut": "rapide",
+    "puissance_total" : "39,000",
+
+    "note": "Aime utiliser les humains pour les transformer en demon"
+  },
+
+  {
+    "id": 15,
+    "name": "Monspiet",
+    "race": "demon",
+    "equipe": "ten_commandments",
+    "magie": "phenix_infernal",
+    "sexe": "homme",
+    "commandment": "reticence",
+    "attribut": "force",
+    "puissance_total" : "53,000",
+
+    "note": "N'a jamias exprimer ces sentiments"
+  },
+
+  {
+    "id": 16,
+    "name": "Derrierie",
+    "race": "demon",
+    "equipe": "ten_commandments",
+    "magie": "combo_etoile",
+    "sexe": "femme",
+    "commandment": "purete",
+    "attribut": "rapide",
+    "puissance_total" : "52,000",
+
+    "note": "Plus elle frappe plus elle fait mal"
+  },
+
+  {
+    "id": 17,
+    "name": "Fraudrin",
+    "race": "demon",
+    "equipe": "ten_commandments",
+    "magie": "grandeur_nature",
+    "sexe": "homme",
+    "commandment": "altruisme",
+    "attribut": "pv",
+    "puissance_total" : "31,000",
+
+    "note": "il est le remplacant du v�ritable commandement"
+  },
+
+  {
+    "id": 18,
+    "name": "Sariel",
+    "race": "ange",
+    "equipe": "four_archangels",
+    "magie": "ark",
+    "sexe": "homme",
+    "grace": "tornade",
+    "attribut": "rapide",
+    
+
+    "note": "aime faire des parie avec Tarmiel"
+  },
+
+  {
+    "id": 19,
+    "name": "Tarmiel",
+    "race": "ange",
+    "equipe": "four_archangels",
+    "magie": "ark",
+    "sexe": "homme",
+    "grace": "ocean",
+    "attribut": "pv",
+   
+    "note": "proche de sariel"
+  },
+
+  {
+    "id": 20,
+    "name": "Ludeciel",
+    "race": "ange",
+    "equipe": "four_archangels",
+    "magie": "ark_omega",
+    "sexe": "homme",
+    "grace": "eclair",
+    "attribut": "force",
+    
+
+    "note": "Il est le frere du dernier archange Mael"
+  }
+
+
+
+]

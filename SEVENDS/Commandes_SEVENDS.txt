@@ -12,9 +12,9 @@ db.Personnages.aggregate([{$group:{"_id":"$equipe", "total de puissance de l'éq
 
 db.Personnages.aggregate([{$group:{"_id":"$genre.race", "Nb par race" : {$sum:1}}}])
 
-db.personnages.aggregate([{$project :{fort: {$gt:[ "$puissance_total", 60000]},name:1, _id:0}}])
+db.personnages.aggregate([{$project :{fort: {$gt:[ "$puissance_total", 60000]},"name":1, "_id":0}}])
 
-db.personnages.aggregate([{$project :{description: {$concat:[ "$name","-","$note"]}}}])
+db.personnages.aggregate([{"$project" :{"_id":0,"description": {"$concat":[ "$name","-","$note"]}}}])
 
-db.personnages.aggregate([{$project :{puissmax:{$max: "$puissance_total"}}}])
+db.personnages.aggregate([{"$project":{"_id": 0, "name": 1,"puissmax":{"$max": "$puissance_total"}, }}])
 

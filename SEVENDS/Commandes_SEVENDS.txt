@@ -1,0 +1,20 @@
+db.Personnages.aggregate([{$group:{"_id":"$equipe", "total de puissance de l'équipe" : {$sum:"$puissance_total"}}}])
+
+db.Personnages.find({"$and":[{"equipe":"seven_deadly_sins"},{"genre.sexe":"femme"}]}, {"_id":0,"name":1})
+
+db.Personnages.find({"equipe":"ten_commandments"}, {"_id":0,"name":1})
+
+db.Personnages.find({"equipe":"seven_deadly_sins"}, {"_id":0,"name":1})
+
+db.Personnages.find({"puissance_total": {$gt: 120000}},{"_id":0,"name":1,"puissance_total":1})
+
+db.Personnages.aggregate([{$group:{"_id":"$equipe", "total de puissance de l'équipe en moyenne" : {$avg:"$puissance_total"}}}])
+
+db.Personnages.aggregate([{$group:{"_id":"$genre.race", "Nb par race" : {$sum:1}}}])
+
+db.personnages.aggregate([{$project :{fort: {$gt:[ "$puissance_total", 60000]},name:1, _id:0}}])
+
+db.personnages.aggregate([{$project :{description: {$concat:[ "$name","-","$note"]}}}])
+
+db.personnages.aggregate([{$project :{puissmax:{$max: "$puissance_total"}}}])
+
